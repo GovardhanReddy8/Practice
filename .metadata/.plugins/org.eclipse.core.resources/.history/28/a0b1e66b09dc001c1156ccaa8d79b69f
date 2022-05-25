@@ -1,0 +1,16 @@
+package java_Exam;
+
+import java.util.Scanner;
+
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
+
+public class ReverseNumbers {
+	public static void main(String[] args) {
+		
+		int nuum,rev=0,r;
+		new Scanner(SynchronizedSortedBag<E>)
+		
+		
+	}
+
+}

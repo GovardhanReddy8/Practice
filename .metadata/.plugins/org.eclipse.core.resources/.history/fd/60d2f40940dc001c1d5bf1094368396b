@@ -1,0 +1,13 @@
+package java_Exam;
+
+public class ReplacingCharWithOutLoop {
+	public static void main(String[] args) {
+		
+		String s="Hello Govardhan Reddy ";
+		char c=0;
+		int count=s.length()-s.replace("", "").length();
+		System.out.println(s+count);
+		
+	}
+
+}
