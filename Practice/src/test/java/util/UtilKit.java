@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -13,6 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import pages.BasePage;
 
 public class UtilKit extends BasePage {
+
 	public static Object[][] getData(String sheetname, String testcase) throws IOException {
 		FileInputStream fis = new FileInputStream("DataSheet\\TestData1.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
@@ -52,5 +54,4 @@ public class UtilKit extends BasePage {
 
 		return rows;
 	}
-
 }

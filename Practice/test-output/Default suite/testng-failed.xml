@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SmallTestexams.FileDownLoad2">
+      <class name="SmallTestexams.ParallelBrowser">
         <methods>
-          <include name="filedown"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- SmallTestexams.FileDownLoad2 -->
+      </class> <!-- SmallTestexams.ParallelBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
