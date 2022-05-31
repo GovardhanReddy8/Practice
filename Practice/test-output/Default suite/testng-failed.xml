@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SmallTestexams.ParallelBrowser">
+      <class name="outPut.ListOut">
         <methods>
-          <include name="test"/>
+          <include name="setright"/>
         </methods>
-      </class> <!-- SmallTestexams.ParallelBrowser -->
+      </class> <!-- outPut.ListOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

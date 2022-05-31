@@ -3,6 +3,7 @@ package pages;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +24,7 @@ public class BasePage {
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get(prs.getProperty("url"));
-		driver.manage().timeouts().implicitlyWait(Long.parseLong(prs.getProperty("implicitywait")), TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Long.parseLong(prs.getProperty("implicitywait"))));
 		
 	}
 	@AfterMethod
