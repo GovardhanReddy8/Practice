@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="outPut.ListOut">
+      <class name="regularPractice.Sliding">
         <methods>
-          <include name="setright"/>
+          <include name="Drop"/>
         </methods>
-      </class> <!-- outPut.ListOut -->
+      </class> <!-- regularPractice.Sliding -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

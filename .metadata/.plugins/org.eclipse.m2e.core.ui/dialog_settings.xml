@@ -48,13 +48,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="BDDCucumber"/>
-			<item value="com.BBDCucumber"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Cucumber"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

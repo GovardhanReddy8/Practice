@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-31T11:17:07 IST" name="Default suite" finished-at="2022-05-31T11:17:37 IST" duration-ms="29695">
+  <suite started-at="2022-06-05T10:07:15 IST" name="Default suite" finished-at="2022-06-05T10:07:24 IST" duration-ms="8912">
     <groups>
     </groups>
-    <test started-at="2022-05-31T11:17:07 IST" name="Default test" finished-at="2022-05-31T11:17:37 IST" duration-ms="29695">
-      <class name="outPut.ListOut">
-        <test-method signature="setright()[pri:0, instance:outPut.ListOut@3c7f66c4]" started-at="2022-05-31T11:17:07 IST" name="setright" finished-at="2022-05-31T11:17:37 IST" duration-ms="29666" status="PASS">
+    <test started-at="2022-06-05T10:07:15 IST" name="Default test" finished-at="2022-06-05T10:07:24 IST" duration-ms="8912">
+      <class name="regularPractice.DatePicker">
+        <test-method signature="date()[pri:0, instance:regularPractice.DatePicker@26e356f0]" started-at="2022-06-05T10:07:15 IST" name="date" finished-at="2022-06-05T10:07:24 IST" duration-ms="8864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setright -->
-      </class> <!-- outPut.ListOut -->
+        </test-method> <!-- date -->
+      </class> <!-- regularPractice.DatePicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,11 +1,11 @@
 
-Feature: I want to login the application
-  Scenario: User should need yo login with valid details
-    Given I want to open the browser
-    And  I want to pass the url
-    Then User should need to enter username
-    And User should need to enter the password
-    Then I want to login
-    When page is login need to close the browser
+Feature: YouTube Login
 
- 
+  Scenario: User should need to login with youtube
+    Given Browser should need to luach 
+    And url should need ti pass
+    When when browser is lauched title should need to verify
+    And enter some value in search box
+    Then click the seach button
+    And and lick the song
+
